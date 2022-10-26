@@ -1,0 +1,43 @@
+.profile{
+    
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border: red solid;
+}
+
+.profile img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.profile figcaption{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    background-color: brown;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#link{
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+    border: pink solid;
+}
+
+.icons{
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+}
