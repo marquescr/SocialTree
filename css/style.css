@@ -1,8 +1,18 @@
+:root{
+    background-color: #FAF7FD;
+    --purple: #BB99DD
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 .profile{
     max-width: 350px;
+    min-width: 150px;
     margin: 0 auto;
-    background-color: antiquewhite;
-    border: red solid;
+    font-weight: 300;
+    color: var(--purple);
 }
 
 #avatar {
@@ -12,21 +22,18 @@
 }
 
 #avatar img {
-    background-color: black;
     width: 50%;
     height: 100%;
     margin: 1em;
 }
 
 #avatar figcaption{
-    background-color: aqua;
     display: flex;
     justify-content: center;
     margin-bottom: 1em;
 }
 
 .links{
-    background-color: brown;
     margin: 10px 10px 30px;
     display: flex;
     flex-direction: column;
@@ -34,17 +41,17 @@
 }
 
 #link{
-    background-color: aqua;
     box-sizing: border-box;
     width: 100%;
     display: flex;
     justify-content: center;
     margin: 5px 0px;
-    border: pink solid;
+    border: var(--purple) solid;
+    font-weight: 600;
+    color: var(--purple);
 }
 
 .icons{
-    background-color: green;
     display: flex;
     justify-content: space-evenly;
 }
