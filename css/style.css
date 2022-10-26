@@ -1,26 +1,33 @@
 .profile{
-    
-    max-width: 500px;
+    max-width: 350px;
     margin: 0 auto;
     background-color: antiquewhite;
     border: red solid;
 }
 
-.profile img {
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
+#avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.profile figcaption{
+#avatar img {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    margin: 1em;
+}
+
+#avatar figcaption{
     background-color: aqua;
     display: flex;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 .links{
     background-color: brown;
-    margin: 10px 10px;
+    margin: 10px 10px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
